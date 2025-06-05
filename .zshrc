@@ -85,7 +85,5 @@ alias note='cd notes && nvim .'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-eval "$(register-python-argcomplete pipx)"
-
 
 zstyle ':omz:plugins:nvm' lazy yes
