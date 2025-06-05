@@ -2,7 +2,7 @@ export LC_ALL=en_IN.UTF-8
 export LANG=en_IN.UTF-8
 export EDITOR=nvim
 export PATH="$PATH:${HOME}/.local/bin"
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export PATH="$PATH:/opt/nvim"
 
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
