@@ -92,3 +92,6 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 zstyle ':omz:plugins:nvm' lazy yes
+
+# opencode
+export PATH=/home/james/.opencode/bin:$PATH
